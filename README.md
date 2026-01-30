@@ -41,12 +41,15 @@ The dataset includes both numerical and categorical customer attributes, with Ch
 
 ## Model Performance Summary
 
-     Model          Accuracy | Precision | Recall | F1-score |
+     Model              Accuracy | Precision | Recall | F1-score |
 
-Logistic Regression   0.86      0.51        0.25      0.34 
-Decision Tree         0.93      0.78        0.75      0.76 
-Random Forest         0.94      0.98        0.60      0.75 
-Tuned Random Forest   0.94      1.00        0.61      0.76
+Logistic Regression     0.86      0.51        0.25      0.34
+
+Decision Tree           0.93      0.78        0.75      0.76 
+
+Random Forest           0.94      0.98        0.60      0.75
+
+Tuned Random Forest     0.94      1.00        0.61      0.76
 
 ## Hyperparameter Tuning
 GridSearchCV was applied to the Random Forest model using:
@@ -65,10 +68,10 @@ python
 }
 
 Tuned Random Forest Performance
-Accuracy: 0.9445277361319341
-Precision: 1.0
-Recall: 0.6105263157894737
-F1-score: 0.7581699346405228
+Accuracy:     0.9445277361319341
+Precision:   1.0
+Recall:      0.6105263157894737
+F1-score:    0.7581699346405228
 
 
 ## Interpretation
@@ -82,5 +85,7 @@ The tuned Random Forest model achieved the best overall performance,
 particularly with perfect precision, making it highly reliable for identifying churn customers with minimal false positives.
 
 📌 Author
+
 Olanireti Itajobi
+
 Intern, Codveda Technologies

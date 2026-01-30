@@ -41,7 +41,7 @@ The dataset includes both numerical and categorical customer attributes, with Ch
 
 ## Model Performance Summary
 
-     Model              Accuracy    Precision    Recall     F1-score 
+ Model              Accuracy    Precision    Recall     F1-score 
 
 Logistic Regression        0.86       0.51        0.25       0.34
 
@@ -66,20 +66,6 @@ python
   min_samples_split: 2,
   n_estimators: 200
 }
-
-Tuned Random Forest Performance
-
-Accuracy:      0.9445277361319341
-Precision:     1.0
-Recall:        0.6105263157894737
-F1-score:      0.7581699346405228
-
-
-## Interpretation
-The perfect precision (1.0) indicates that all customers predicted as churn actually churned — there were no false positives.
-The recall (61%) shows that while the model is very cautious, it does not capture all churn cases.
-The F1-score improvement confirms a better balance between precision and recall compared to the untuned model.
-High accuracy reflects strong overall classification performance, especially given class imbalance.
 
 ## Final Conclusion
 The tuned Random Forest model achieved the best overall performance, 
